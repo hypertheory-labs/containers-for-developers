@@ -1,4 +1,4 @@
 {
-    "name": "Alpine Bare",
-    "image": "alpine:3.18.3"
+    "name": "Dev Container for C Development",
+    "image": "jeffrygonzalez/dev-container-for-c:alpine3.18.3"
 }

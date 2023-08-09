@@ -1,6 +1,5 @@
-FROM alpine:3.18.3 as builder
+FROM jeffrygonzalez/dev-container-for-c:alpine3.18.3 as builder
 WORKDIR /app
-RUN apk add build-base
 COPY ./src/ .
 
 RUN gcc -o hello -static hello.c
