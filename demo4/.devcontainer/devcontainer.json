@@ -1,0 +1,4 @@
+{
+    "name": "Alpine Bare",
+    "image": "alpine:3.18.3"
+}
