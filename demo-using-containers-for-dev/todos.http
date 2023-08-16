@@ -1,0 +1,14 @@
+GET http://localhost:1337/todos
+Accept: application/json
+
+
+
+### Add a Todo
+
+POST http://localhost:1337/todos
+Content-Type: application/json
+Accept: application/json
+
+{
+    "description": "Get Even More Tacos"
+}
